@@ -97,7 +97,7 @@
                     <p class="text-lg">From routine maintenance to complex repairs, we handle all your foreign car needs with unparalleled expertise.</p>
                 </div>
                 <div>
-                    <img src="https://placehold.co/600x400/1a4d8f/ffffff?text=V%26W+Auto+Shop" alt="V & W Auto Repair Shop Interior" class="rounded-lg shadow-md">
+                    <img src="https://raw.githubusercontent.com/JamesBrownR/V-W-VOLKSWAGEN-Foreign-Car/main/V-W-VOLKSWAGEN-Foreign.png" alt="V & W Auto Repair Shop Interior" class="rounded-lg shadow-md w-full h-auto">
                 </div>
             </div>
         </section>
@@ -213,10 +213,10 @@
             <h2 class="text-3xl font-bold text-primary-color border-b-4 border-accent-color pb-2 mb-6">Location</h2>
             <p class="text-lg mb-6"><strong>Address:</strong> 4880 S 150 W, Murray, UT 84107</p>
             <div class="rounded-lg overflow-hidden shadow-lg">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.234661386576!2d-111.9009716240217!3d40.64654997923832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528aab04f5f5f5%3A0x6659c03793732b1!2sV%20%26%20W%20Foreign%20Car%20Repair!5e0!3m2!1sen!2sus!4v1729732732915!5m2!1sen!2sus" class="w-full h-96" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Shop Location Map"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.787680076043!2d-111.90547638842605!3d40.669896471375816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528e5760868ee3%3A0x6a053272d42d38e6!2s4880%20S%20150%20W%2C%20Murray%2C%20UT%2084107!5e0!3m2!1sen!2sus!4v1701980000000!5m2!1sen!2sus" class="w-full h-96" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Shop Location Map"></iframe>
             </div>
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a href="https://www.google.com/maps/place/V+%26+W+Foreign+Car+Repair/@40.646549,-111.9009717,17z/data=!3m1!4b1!4m6!3m5!1s0x87528aab04f5f5f5:0x6659c03793732b1!8m2!3d40.646549!4d-111.8983968!16s%2Fg%2F1tdnhmhn?entry=ttu" target="_blank" rel="noopener noreferrer" class="external-link bg-primary-color text-white py-3 px-6 rounded-lg font-semibold hover:bg-secondary-color transition-all">View on Google Maps</a>
+                <a href="https://www.google.com/maps/place/4880+S+150+W,+Murray,+UT+84107/@40.6698965,-111.9054764,17z/data=!3m1!4b1!4m6!3m5!1s0x87528e5760868ee3:0x6a053272d42d38e6!8m2!3d40.6698924!4d-111.9029015!16s%2Fg%2F11c210g140?entry=ttu" target="_blank" rel="noopener noreferrer" class="external-link bg-primary-color text-white py-3 px-6 rounded-lg font-semibold hover:bg-secondary-color transition-all">View on Google Maps</a>
                 <a href="https://www.yelp.com/biz/v-and-w-foreign-auto-repair-salt-lake-city" target="_blank" rel="noopener noreferrer" class="external-link bg-primary-color text-white py-3 px-6 rounded-lg font-semibold hover:bg-secondary-color transition-all">See Our Yelp Reviews</a>
                 <a href="https://github.com/JamesBrownR/V-W-VOLKSWAGEN-Foreign-Car" target="_blank" rel="noopener noreferrer" class="external-link bg-primary-color text-white py-3 px-6 rounded-lg font-semibold hover:bg-secondary-color transition-all">View on GitHub</a>
             </div>
@@ -230,7 +230,6 @@
     </footer>
 
     <script>
-        // IMPROVEMENT: Removed the confusing/negative "jordan harms" review.
         const reviews = [
             {
                 "name": "Bodozer 34",
@@ -288,10 +287,6 @@
             displayReviews(currentReviewIndex, reviewsPerPage);
         });
 
-        /* IMPROVEMENT: Replaced the broken 'click' listener with a functional 'submit' listener.
-          This code now correctly targets the new <form> tag, gathers the data, validates 
-          required fields, and uses form.reset() to clear the inputs.
-        */
         document.getElementById('contact-form-element').addEventListener('submit', function(e) {
             e.preventDefault(); // Prevent the form from actually submitting
             const form = e.target;
